@@ -1,3 +1,77 @@
+/* Change Font web */
+/* Import maven pro font */
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+.section-1 {
+    background: linear-gradient(to right, #63894c, #82ac6a);
+    height: 600px;
+    width: 100%;
+}
+.section-1 .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 100px 0 0 300px;    
+}
+
+.row {
+    width: 100%;
+}
+
+.text-primary {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin: 53px 0 0;
+    color: #fff;
+}
+
+.text-secondary {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: #fff;
+    font-style: italic;
+}
+
+.text-credit {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: #fff;
+    font-style: italic;
+}
+
+.section-1-image {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    top: -1px;
+}
+
+.text-credit a {
+    color: #fff;
+}
+
+.section-1-button {
+    margin: 20px 0 20px;
+    background-color:goldenrod;
+    color: #fff;
+    padding: 14px 60px;
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
 
 
 /* Responsive Version */
