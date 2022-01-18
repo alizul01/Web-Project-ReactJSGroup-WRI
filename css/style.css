@@ -1,25 +1,129 @@
-/* Change Font web */
-/* Import maven pro font */
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  box-sizing: border-box;
-}
-.section-1 {
-    background: linear-gradient(to right, #63894c, #82ac6a);
-    height: 600px;
-    width: 100%;
-}
-.section-1 .container {
-    max-width: 960px;
-    margin: auto;
-    padding: 100px 0 0 300px;    
+  padding: 0;
+  transition: 0.4s;
 }
 
-.row {
-    width: 100%;
+/* Navbar */
+.overlay {
+    position:absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: 0.3s;
 }
+
+.overlay.active {
+    opacity: 0.7;
+    visibility: visible;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.header .pre-header{
+         min-height: 80px;
+         display: flex;
+         margin: 0 8%;
+         align-items: center ;
+         justify-content: space-between;
+         z-index: 10;
+    }
+
+    .pre-header .logo {
+         filter: invert(1);
+         background-size: cover;
+         width: 64px;
+         height: 32px;
+    }
+    
+    .pre-header .hamburger {
+         background-size: cover;
+         width: 30px;
+         height: 30px;
+         filter: invert(1);
+         cursor: pointer;
+         z-index: 2;
+    }
+
+    .slide-bar {
+         position: absolute;
+         opacity: 0.6;
+         top: 0;
+         left: 0;
+         min-height: 100vh;
+         width: 300px;
+         background-color: black;
+         color: white;
+         visibility: hidden;
+         transition: 0.5s;
+         transform: translateX(-100%);
+    }
+    
+    .slide-bar.active{
+         visibility: visible ;
+         z-index: 2;
+         transform: translateX(0);
+         cursor: pointer;
+    }
+    
+    .slide-bar .close {
+         margin: 20px 230px; ;
+         position: relative;
+         background: url(..img/close.png);
+         background-size: cover ;
+         width: 30px;
+         height: 30px;
+         filter: invert(0);
+    }
+
+    .slide-bar ul {
+         display: flex;
+         flex-direction: column;
+    }
+    .slide-bar  ul li {
+         margin: 5px auto;
+         list-style: none;
+         margin-top: 30px;
+    }
+    
+    .slide-bar ul li a {
+         color: white;
+         text-decoration: none;
+         font-size: 2em;
+    }
+
+    /* end Navbar */
+
+
+.header2 {
+    width: 100%;
+    background: linear-gradient(to right, #63894c, #82ac6a);
+}
+
+.section-1 {
+    position: relative;
+    padding: 0 100px;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-1 .container {
+    margin-top: 50px; 
+    position: relative;
+}
+
 
 .text-primary {
     font-family: 'Maven Pro', sans-serif;
@@ -27,9 +131,12 @@
     font-weight: 800;
     margin: 53px 0 0;
     color: #fff;
+    white-space: normal;
 }
 
 .text-secondary {
+    padding-top: 50px;
+    position: relative;
     font-family: 'Maven Pro', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
@@ -47,31 +154,32 @@
     font-style: italic;
 }
 
-.section-1-image {
-    height: 600px;
-    width: auto;
-    position: absolute;
-    top: -1px;
-}
-
 .text-credit a {
     color: #fff;
 }
 
 .section-1-button {
-    margin: 20px 0 20px;
+    margin: 0px  0;
     background-color:goldenrod;
     color: #fff;
-    padding: 14px 60px;
-    border-radius: 5px;
+    padding: 25px 60px;
+    border-radius: 15px;
     font-family: 'Maven Pro', sans-serif;
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
-    
 }
 
+.container-img1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-1-image {
+    height: 600px;
+    width: auto;
+}
 
 
 /* Responsive Version */
