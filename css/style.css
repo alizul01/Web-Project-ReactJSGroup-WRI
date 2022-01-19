@@ -111,7 +111,7 @@
     background: linear-gradient(to right, #63894c, #82ac6a);
 }
 
-.section-1 {
+.header-1 {
     position: relative;
     padding: 0 100px;
     min-height: 600px;
@@ -119,7 +119,7 @@
     justify-content: space-around;
 }
 
-.section-1 .container {
+.header-1 .container {
     margin-top: 50px; 
     position: relative;
 }
@@ -158,7 +158,7 @@
     color: #fff;
 }
 
-.section-1-button {
+.header-1-button {
     margin: 0px  0;
     background-color:goldenrod;
     color: #fff;
@@ -176,7 +176,7 @@
     justify-content: flex-end;
 }
 
-.section-1-image {
+.header-1-image {
     height: 600px;
     width: auto;
 }
