@@ -8,7 +8,7 @@
 
 /* Navbar */
 .overlay {
-    position:absolute;
+    position:fixed;
     z-index: 1;
     top: 0;
     bottom: 0;
@@ -57,7 +57,7 @@
     }
 
     .slide-bar {
-         position: absolute;
+         position: fixed;
          opacity: 0.6;
          top: 0;
          left: 0;
