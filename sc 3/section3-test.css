@@ -1,25 +1,25 @@
 body {
-  display :flex;
-  justify-content : center;
+  display: flex;
+  justify-content: center;
   width: 1630px;
-  height: 720px; 
-  margin : 0;
+  height: 720px;
+  margin: 0;
 }
 
 .page1 {
-    background-color: rgb(228, 170, 11);
-    width: 380px;
-    height: 720px; 
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    margin: 0;
+  background-color: rgb(228, 170, 11);
+  width: 380px;
+  height: 720px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  margin: 0;
 }
 
 .page2 {
   background-color: rgb(255, 255, 255);
   width: 500px;
-  height: 720px; 
+  height: 720px;
   text-align: left;
   line-height: 75px;
   margin: 0;
@@ -28,24 +28,24 @@ body {
 .title {
   margin-top: 120px;
   margin-left: 30px;
-  height :auto; 
+  height: auto;
   font-family: "Poppins", sans-serif;
   width: 500px;
-  font-size :20px;
+  font-size: 20px;
 }
 
-.content{
+.content {
   margin-top: 10px;
   margin-left: 30px;
-  line-height :1.2cm;
-  height : auto;
+  line-height: 1.2cm;
+  height: auto;
   width: 500px;
-  font-size :15px;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
-.round{
+.round {
   width: 60px;
   height: 60px;
   margin-top: 10px;
@@ -57,7 +57,6 @@ body {
 .page3 {
   background-color: rgb(164, 202, 145);
   width: 750px;
-  height: 720px; 
+  height: 720px;
   margin: 0;
 }
-  
