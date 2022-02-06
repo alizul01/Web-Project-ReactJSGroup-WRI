@@ -9,6 +9,9 @@
 body {
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
+  height: 2000px;
+  /* Cuma buat ngetes scroll aja yang height ini */
 }
 
 /* Navbar */
@@ -37,12 +40,78 @@ a {
 .menu {
   float: right;
 }
+
+/* Styling Section-1 "Ilham" */
+.header {
+  padding: 5px;
+  line-height: 2.5em;
+}
+
+.featured-image {
+  width: 100%;
+}
+
+.contain-flexbox {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  color: #ffff;
+  text-align: left;
+  background-color: #364f6b;
+  padding: 10px;
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 2em;
+  border-radius: 20px;
+}
+
+.head-card {
+  text-align: center;
+  color: white;
+}
+
+.subhead-card {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card h6 a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom-style: solid;
+}
+
+.card a:hover {
+  color: lightgray;
+  border-bottom-style: solid salmon;
+}
+
+.card h2,
+h3 {
+  margin-top: 30px;
+  line-height: 50px;
+  font-size: 35px;
+  font-weight: bold;
+}
+/* End of Styling Section-1 */
+
 nav {
   width: 100%;
   margin: auto;
   display: flex;
+  position: sticky;
+  position: -webkit-sticky;
   line-height: 80px;
   top: 0;
+  background-color: #fff;
+  z-index: 1;
 }
 nav ul {
   list-style-type: none;
@@ -68,104 +137,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-.overlay {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: black;
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.overlay.active {
-  opacity: 0.7;
-  visibility: visible;
-}
-
-.header {
-  width: 100%;
-  position: relative;
-}
-
-.header .pre-header {
-  min-height: 80px;
-  display: flex;
-  margin: 0 8%;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
-}
-
-.pre-header .logo {
-  filter: invert(1);
-  background-size: cover;
-  width: 64px;
-  height: 32px;
-}
-
-.pre-header .hamburger {
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  filter: invert(1);
-  cursor: pointer;
-  z-index: 2;
-}
-
-.slide-bar {
-  position: fixed;
-  opacity: 0.6;
-  top: 0;
-  left: 0;
-  min-height: 100vh;
-  width: 300px;
-  background-color: black;
-  color: white;
-  visibility: hidden;
-  transition: 0.5s;
-  transform: translateX(-100%);
-}
-
-.slide-bar.active {
-  visibility: visible;
-  z-index: 2;
-  transform: translateX(0);
-  cursor: pointer;
-}
-
-.slide-bar .close {
-  margin: 20px 230px;
-  position: relative;
-  background: url(..img/close.png);
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  filter: invert(0);
-}
-
-.slide-bar ul {
-  display: flex;
-  flex-direction: column;
-}
-.slide-bar ul li {
-  margin: 5px auto;
-  list-style: none;
-  margin-top: 30px;
-}
-
-.slide-bar ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 2em;
-}
-
-/* end Navbar */
-
 section {
   margin: auto;
   display: flex;
@@ -190,6 +161,7 @@ section {
   font-weight: bold;
   color: #364f6b;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 .btn {
@@ -201,6 +173,25 @@ section {
   font-weight: bold;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.sub-heading {
+  font-weight: 800;
+  font-size: 45px;
+  color: #364f6b;
+  margin-bottom: 20px;
+}
+
+.description-2 {
+  font-size: 20px;
+  color: #364f6b;
+  margin-bottom: 50px;
+}
+
+/* Ilham */
+.section-2-img {
+  width: 500px;
+  height: auto;
 }
 
 /* Responsive Version */
