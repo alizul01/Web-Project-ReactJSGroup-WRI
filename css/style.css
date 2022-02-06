@@ -398,3 +398,78 @@
     width: 100%;
   }
 }
+
+/* SECTION 4 "Sukma" */
+body {
+  background-color: white;
+}
+
+img {
+  height: 500px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.text {
+  text-align: left;
+  padding-top: 6px;
+  padding-bottom: px;
+  height: 190px;
+  width: 270px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 540px;
+  margin-bottom: 20px;
+  background: rgb(115, 155, 90);
+}
+
+.judul {
+  font-family: 'calibri';
+  margin-left: 25px;
+  font-size: 11pt;
+}
+
+.isi {
+  font-family: 'calibri';
+  text-align: left;
+  font-size: 10pt;
+  line-height: 23px;
+}
+
+.judul2 {
+  font-size: 25pt;
+  margin-top: 50px;
+  font-family: 'calibri';
+
+}
+
+.prgf {
+  line-height: 22px;
+  font-size: 10pt;
+  font-family: 'calibri';
+}
+
+.by {
+  font-style: italic;
+  font-size: 8pt;
+  font-family: 'calibri';
+
+}
+
+.us {
+  font-family: 'calibri';
+  font-weight: 600;
+  letter-spacing: 1pt;
+  background: orange;
+  color: white;
+  height: 28px;
+  width: 125px;
+  margin-left: 565px;
+  margin-top: 18px;
+  padding-top: 15px;
+  font-size: 8pt;
+  text-align: center;
+  border-radius: 5px;
+}
+/* END OF SECTION 4 */
