@@ -661,3 +661,152 @@ section {
     width: 100%;
   }
 }
+
+/* section 5 */
+section.section-5 {
+  display: grid;
+  grid-template-areas: 'list hero';
+  margin: 0 328px;
+  grid-gap: 100px;
+  padding-bottom: 30px;
+}
+
+.section-5 .list {
+  grid-area: list;
+  padding: 10px 30px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-5 .list .item-list {
+  display: flex;
+  padding: 15px 0;
+}
+
+.section-5 .list .item-list span {
+  display: inline-block;
+  padding: 5px;
+}
+
+.section-5 .list .item-list span.number {
+  font-size: 42px;
+  font-weight: 700;
+  color: #364f6b;
+  margin-right: 20px;
+}
+
+.section-5 .list .item-list span.text {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.section-5 .hero {
+  grid-area: hero;
+  padding: 20px 30px 30px;
+  margin: 0 auto;
+}
+
+.section-5 .hero .box {
+  width: 433px;
+  height: 582px;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  padding: 20px 30px 30px;
+}
+
+.section-5 .rounded-image {
+  display: flex;
+  justify-content: center;
+}
+
+.section-5 .rounded-image img {
+  border-radius: 50%;
+  width: 240px;
+}
+
+.section-5 .box p.title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.section-5 .box p.text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+.section-5 .box p.text-link {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.section-5 .box p.text-link a {
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+/* eo section 5 */
+
+
+/* SECTION 6 */
+section.section-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3F3D56;
+  padding: 120px 300px 80px;
+}
+
+section.section-6 .title {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+section.section-6 .line {
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 350px;
+  height: 7px;
+}
+
+section.section-6 form {
+  width: 550px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+section.section-6 form .input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 20px 0 30px;
+  font-size: 18px;
+}
+
+section.section-6 form .input.submit {
+  font-weight: 600;
+  color: #364f6b;
+}
+
+section.section-6 .text {
+  width: 450px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+section.section-6 .icon i {
+  font-size: 42px;
+  padding: 10px;
+  color: #fff;
+}
+/* eo section 6 */
