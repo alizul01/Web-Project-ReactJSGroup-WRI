@@ -18,3 +18,4 @@ Untuk commit gunakan kata-kata aksi supaya lebih jelas saat melakukan commit. Mi
 - [Ilham Yudantyo](https://www.github.com/ilhamydn17)
 - [Mirabell Joice Laura](https://github.com/Mirabelljoicelaura)
 - [Ibnu Hajar Askholani](https://https://github.com/askholani)
+- [Alfan Olivan](https://github.com/Alivan21)
