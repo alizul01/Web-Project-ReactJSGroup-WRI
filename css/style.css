@@ -6,215 +6,81 @@
   transition: 0.4s;
 }
 
+body {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  height: 2000px;
+  /* Cuma buat ngetes scroll aja yang height ini */
+}
+
 /* Navbar */
-.overlay {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: black;
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden;
-  transition: 0.3s;
-}
 
-.overlay.active {
-  opacity: 0.7;
-  visibility: visible;
-}
-
-.header {
-  width: 100%;
-  position: relative;
-}
-
-.header .pre-header {
-  min-height: 80px;
-  display: flex;
-  margin: 0 8%;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
-}
-
-.pre-header .logo {
-  filter: invert(1);
-  background-size: cover;
-  width: 64px;
-  height: 32px;
-}
-
-.pre-header .hamburger {
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  filter: invert(1);
-  cursor: pointer;
-  z-index: 2;
-}
-
-.slide-bar {
-  position: fixed;
-  opacity: 0.6;
-  top: 0;
-  left: 0;
-  min-height: 100vh;
-  width: 300px;
-  background-color: black;
-  color: white;
-  visibility: hidden;
-  transition: 0.5s;
-  transform: translateX(-100%);
-}
-
-.slide-bar.active {
-  visibility: visible;
-  z-index: 2;
-  transform: translateX(0);
-  cursor: pointer;
-}
-
-.slide-bar .close {
-  margin: 20px 230px;
-  position: relative;
-  background: url(..img/close.png);
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-  filter: invert(0);
-}
-
-.slide-bar ul {
-  display: flex;
-  flex-direction: column;
-}
-.slide-bar ul li {
-  margin: 5px auto;
+ul {
   list-style: none;
-  margin-top: 30px;
 }
 
-.slide-bar ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 2em;
-}
-
-/* end Navbar */
-
-.header2 {
-  width: 100%;
-  height: fit-content;
-  background: linear-gradient(to right, #63894c, #82ac6a);
-}
-
-.header-1 {
-  position: relative;
-  padding: 0 100px;
-  min-height: 600px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.header-1 .container {
-  margin-top: 50px;
-  position: relative;
-}
-
-.text-primary {
-  font-family: "Maven Pro", sans-serif;
-  font-size: 3.75rem;
-  font-weight: 800;
-  margin: 53px 0 0;
-  color: #fff;
-  white-space: normal;
-}
-
-.text-secondary {
-  padding-top: 50px;
-  position: relative;
-  font-family: "Maven Pro", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin: 0 0 20px;
-  color: #fff;
-  font-style: italic;
-}
-
-.text-credit {
-  font-family: "Maven Pro", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin: 0 0 20px;
-  color: #fff;
-  font-style: italic;
-}
-
-.text-credit a {
-  color: #fff;
-}
-
-.header-1-button {
-  margin: 0px 0;
-  background-color: goldenrod;
-  color: #fff;
-  padding: 25px 60px;
-  border-radius: 15px;
-  font-family: "Maven Pro", sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
+a {
   text-decoration: none;
 }
 
-.container-img1 {
-  display: flex;
-  justify-content: center;
+.wrapper {
+  width: 1400px;
+  margin: auto;
+  position: relative;
 }
 
-.header-1-image {
-  height: 600px;
-  width: auto;
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  color: #364f6b;
+}
+
+.menu {
+  float: right;
 }
 
 /* Styling Section-1 "Ilham" */
-.header{
+.header {
   padding: 5px;
   line-height: 2.5em;
 }
 
-.featured-image{
+.featured-image {
   width: 100%;
 }
 
-.contain-flexbox{
+.contain-flexbox {
   width: 85%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   position: relative;
-  top: -265px;
 }
 
-.card{
+.card {
   color: #ffff;
-  text-align: center;
-  background-color: #faa00a;
+  text-align: left;
+  background-color: #364f6b;
   padding: 10px;
   margin-right: 15px;
   font-size: 16px;
   line-height: 2em;
-  flex-grow: 1;
+  border-radius: 20px;
 }
 
-.second{
-  background-color: #63894c;
+.head-card {
+  text-align: center;
+  color: white;
 }
 
-.card h6 a{
+.subhead-card {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card h6 a {
   color: #fff;
   font-size: 13px;
   font-weight: 600;
@@ -222,18 +88,415 @@
   border-bottom-style: solid;
 }
 
-.card a:hover{
+.card a:hover {
   color: lightgray;
   border-bottom-style: solid salmon;
 }
 
-.card h2,h3{
+.card h2,
+h3 {
   margin-top: 30px;
   line-height: 50px;
   font-size: 35px;
   font-weight: bold;
 }
 /* End of Styling Section-1 */
+
+/* Mirabell */
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.page1 {
+  background-color: #3e5977;
+  width: 23px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.page2 {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 720px;
+  text-align: left;
+  line-height: 75px;
+  margin: 0;
+}
+
+.title-section-4 {
+  margin-top: 120px;
+  margin-left: 30px;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  width: 500px;
+  font-size: 20px;
+}
+
+.content-section-4 {
+  margin-top: 10px;
+  margin-left: 30px;
+  line-height: 1.2cm;
+  height: auto;
+  width: 500px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+}
+
+.round {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 400px;
+  margin-bottom: 20px;
+  background-color: #3e5977;
+  border-radius: 100%;
+}
+
+.page3 {
+  background-color: rgb(164, 202, 145);
+  width: 750px;
+  height: 720px;
+  margin: 0;
+}
+
+/* Akhir Mirabell */
+
+/* SukmaGV */
+.img-section-7 {
+  height: 600px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  float: left;
+}
+
+.text-section-7 {
+  text-align: left;
+  padding: auto;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background: #3e5977;
+}
+
+.title-section-7 {
+  font: 2rem sans-serif;
+  padding: 20px;
+  margin-left: 25px;
+  color: white;
+  background: #3e5977;
+}
+
+.isi {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding: 0 40px 20px 40px;
+  line-height: 1.5em;
+  margin-left: 25px;
+  color: white;
+  background: #3e5977;
+  width: auto;
+}
+
+.title-wrap {
+  height: auto;
+  width: auto;
+}
+
+.wrapper-title {
+  padding: 0 40px 20px 20px;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  color: #364f6b;
+}
+
+.judul2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.prgf {
+  line-height: 22px;
+  font-size: 10pt;
+  font-family: "calibri";
+}
+
+.by {
+  font-style: italic;
+}
+
+.us {
+  font-family: "calibri";
+  font-weight: 600;
+  letter-spacing: 1pt;
+  background: orange;
+  color: white;
+  height: 28px;
+  width: 125px;
+  margin-left: 665px;
+  margin-top: 18px;
+  padding-top: 15px;
+  font-size: 8pt;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* AKhir */
+
+/* Alivan */
+section.section-5 {
+  display: grid;
+  grid-template-areas: "list hero";
+  margin: 0;
+  grid-gap: 100px;
+  padding-bottom: 30px;
+}
+
+.section-5 .list {
+  grid-area: list;
+  padding: 10px 30px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-5 .list .item-list {
+  display: flex;
+  padding: 15px 0;
+}
+
+.section-5 .list .item-list span {
+  display: inline-block;
+  padding: 5px;
+}
+
+.section-5 .list .item-list span.number {
+  font-size: 42px;
+  font-weight: 700;
+  color: #364f6b;
+  margin-right: 20px;
+}
+
+.section-5 .list .item-list span.text {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.section-5 .hero {
+  grid-area: hero;
+  padding: 20px 30px 30px;
+  margin: 0 auto;
+}
+
+.section-5 .hero .box {
+  width: 433px;
+  height: 582px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 20px 30px 30px;
+}
+
+.section-5 .rounded-image {
+  display: flex;
+  justify-content: center;
+}
+
+.section-5 .rounded-image img {
+  border-radius: 50%;
+  width: 240px;
+}
+
+.section-5 .box p.title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.section-5 .box p.text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.section-5 .box p.text-link {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section-5 .box p.text-link a {
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+/* eo section 5 */
+
+/* SECTION 6 */
+section.section-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f3d56;
+  padding: 120px 300px 80px;
+}
+
+section.section-6 .title {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+section.section-6 .line {
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 350px;
+  height: 7px;
+}
+
+section.section-6 form {
+  width: 550px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+section.section-6 form .input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 20px 0 30px;
+  font-size: 18px;
+}
+
+section.section-6 form .input.submit {
+  font-weight: 600;
+  color: #364f6b;
+}
+
+section.section-6 .text {
+  width: 450px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+section.section-6 .icon i {
+  font-size: 42px;
+  padding: 10px;
+  color: #fff;
+}
+/* Akhir Alivan */
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  line-height: 80px;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  padding: 0 16px 0 16px;
+  text-decoration: none;
+  text-align: center;
+  transition: 1s;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.column {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.column .description {
+  font-size: 20px;
+  font-weight: bold;
+  color: #364f6b;
+  margin-bottom: 50px;
+}
+
+/* Make Title */
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #364f6b;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.btn {
+  background-color: #364f6b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.sub-heading {
+  font-weight: 800;
+  font-size: 45px;
+  color: #364f6b;
+  margin-bottom: 20px;
+}
+
+.description-2 {
+  font-size: 20px;
+  color: #364f6b;
+  margin-bottom: 50px;
+}
+
+/* Ilham */
+.section-2-img {
+  width: 500px;
+  height: auto;
+}
+
 /* Responsive Version */
 @media (min-width: 992px) {
   .col-lg-1,

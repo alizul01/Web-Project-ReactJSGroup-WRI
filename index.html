@@ -4,97 +4,182 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WRI Web Project</title>
+    <title>Workshop Riset Informatika</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png" />
   </head>
   <body>
     <!-- Navbar -->
-    <div class="overlay"></div>
     <nav>
-      <header class="header">
-        <div class="pre-header">
-          <a href="" class="logo"><img src="img/logo.png" alt="" /></a>
-          <nav class="hamburger"><img src="img/menu.png" alt="" /></nav>
-          <div class="slide-bar">
-            <div class="close"><img src="img/close.png" alt="" /></div>
-            <ul>
-              <li><a href="">HOME</a></li>
-            </ul>
-          </div>
+      <div class="wrapper">
+        <div class="logo"><a href="#">WRI</a></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Portofolio">Portofolio</a></li>
+          </ul>
         </div>
-      </header>
+      </div>
+      <img src="img/menu.png" alt="" />
     </nav>
 
     <!-- Header -->
-    <div class="header2">
-      <div class="row header-1">
-        <div class="container col-lg-6 col-md-6 col-sm-12">
-          <section>
-            <h1>
-              <span class="text-primary"
-                >7 Ways To Be <br />
-                Happy Now</span
-              >
-            </h1>
-            <div class="text-secondary">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam iusto possimus suscipit commodi praesentium ducimus consequuntur. Vel vero placeat sapiente tempora, iusto incidunt cumque, molestiae,illo nobis ipsam cum
-              voluptatem.
-            </div>
-            <div class="text-credit">
-              Image from
-              <a href="http://www.freepik.com" target="_blank" rel="noopener noreferrer">Freepik</a>
-            </div>
+    <div class="wrapper col-sm-12">
+      <section id="section-1">
+        <img src="img/undraw_happy_music_g6wc.svg" alt="" />
+        <div class="column col-sm-12">
+          <h1 class="title col-sm-12">3 Ways To Be Happy Now</h1>
+          <p class="description-2 col-sm-12">
+            How to be happy? Well, there are many ways to be happy. But there are only 7 ways to be happy now. As a human, we have to be happy because if we not happy, we will be unhappy. So, we have to be happy now.
+          </p>
+          <a href="https://github.com/alizul01/Web-Project-ReactJSGroup-WRI" class="btn">About Us</a>
+        </div>
+      </section>
 
-            <!-- Button -->
-            <button class="header-1-button" onclick="">Learn More</button>
-          </section>
+      <section id="section-2">
+        <div class="column">
+          <h2 class="sub-heading" style="margin-top: 50px">How to be happy?</h2>
+          <p class="description-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic nobis sint maiores delectus id culpa sed cupiditate a iure.</p>
+          <p class="description-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic nobis sint maiores delectus id culpa sed cupiditate a iure.</p>
+          <a href="#" class="btn">Read More</a>
         </div>
-        <div class="container-img1 col-lg-6 col-md-6 col-sm-12">
-          <img class="header-1-image" src="img/img-1.png" alt="" />
+        <img src="img/undraw_happy_feeling_slmw.svg" alt="" class="section-2-img" />
+      </section>
+
+      <section class="section-3">
+        <div class="column">
+          <div class="contain-flexbox">
+            <div class="card">
+              <h2 class="head-card">A</h2>
+              <h3 class="subhead-card">Enjoy Every Moment</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+              <h6><a href="#">LEARN MORE</a></h6>
+            </div>
+            <div class="card" style="background-color: #456080">
+              <h2 class="head-card">B</h2>
+              <h3 class="subhead-card;">Schedule in Leisure Time</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+              <h6><a href="#">LEARN MORE</a></h6>
+            </div>
+            <div class="card">
+              <h2 class="head-card">C</h2>
+              <h3 class="subhead-card">Express Our Gratitude</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+              <h6><a href="#">LEARN MORE</a></h6>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section id="section-4">
+        <div class="page1"></div>
+        <div class="column">
+          <h2 class="sub-heading" style="margin-top: 50px">25 Habits to Add Your Routine</h2>
+          <p class="description-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic nobis sint maiores delectus id culpa sed cupiditate a iure.</p>
+          <p class="description-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic nobis sint maiores delectus id culpa sed cupiditate a iure.</p>
+          <div class="round"></div>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <img src="img/pict.png" height="600" width="auto" alt="" class="" />
+      </section>
+
+      <section class="section-7">
+        <img class="img-section-7" src="image1.png" alt="" />
+        <div class="title-wrap">
+          <div class="title-section-7">
+            <h4>Daily Habits</h4>
+          </div>
+          <div class="isi">
+            <ol>
+              <li>Smile</li>
+              <li>Exercise</li>
+              <li>Get plenty of sleep</li>
+              <li>Eat with mood in mind</li>
+              <li>Be grateful</li>
+            </ol>
+          </div>
+          <div class="wrapper-title">
+            <div class="judul2">Daily Habits</div>
+            <p class="description-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, saepe odio! Quo a quos deleniti molestiae odio sit officiis repellat.
+              <span class="by"><br /><br />Image by Freepik</span>
+            </p>
+          </div>
+          <!-- button -->
+          <div class="wrapper-title">
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-5 col-sm-12">
+        <div class="list">
+          <div class="item-list">
+            <span class="number">1</span>
+            <span class="text">Sample text. Click to select text box. Click again or double click to start</span>
+          </div>
+          <div class="item-list">
+            <span class="number">2</span>
+            <span class="text">Sample text. Click to select text box. Click again or double click to start</span>
+          </div>
+          <div class="item-list">
+            <span class="number">3</span>
+            <span class="text">Sample text. Click to select text box. Click again or double click to start</span>
+          </div>
+          <div class="item-list">
+            <span class="number">4</span>
+            <span class="text">Sample text. Click to select text box. Click again or double click to start</span>
+          </div>
+          <div class="item-list">
+            <span class="number">5</span>
+            <span class="text">Sample text. Click to select text box. Click again or double click to start</span>
+          </div>
+          <div class="item-list">
+            <span class="number">6</span>
+            <span class="text">Sample text. Click to select text box. Click again or double click to start</span>
+          </div>
+        </div>
+        <div class="hero">
+          <div class="box">
+            <div class="rounded-image">
+              <img src="img/img_avatar.png" alt="" />
+            </div>
+            <p class="title">Keep a journal</p>
+            <p class="text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae necessitatibus soluta nisi magnam. Corrupti earum voluptas qui hic ducimus mollitia reiciendis, corporis illum, officiis maiores deleniti? Optio soluta ad
+              adipisci.
+            </p>
+            <p class="text-link">Image from <a href="https://www.freepik.com/" target="_blank">Freepik</a></p>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <!-- SECTION-1 -->
-    <section id="section1">
-      <div class="wrapper">
-        <img src="img/bg-img.jpg" class="featured-image" alt="img" />
-      <div class="contain-flexbox">
-        <div class="card">
-          <h2>A</h2>
-          <h3>
-            Enjoy every <br />
-            moment
-          </h3>
-
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-          <h6><a href="#">LEARN MORE</a></h6>
-        </div>
-        <div class="card second">
-          <h2>B</h2>
-          <h3>
-            Schedule in <br />
-            Leisure Time
-          </h3>
-
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-          <h6><a href="#">LEARN MORE</a></h6>
-        </div>
-        <div class="card">
-          <h2>C</h2>
-          <h3>
-            Express <br />
-            Gratitude
-          </h3>
-
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-          <h6><a href="#">LEARN MORE</a></h6>
-        </div>
+    <!-- Section 6 -->
+    <section class="section-6 col-sm-12">
+      <div class="title">
+        <p>Subscribe</p>
+        <div class="line"></div>
+      </div>
+      <form action="">
+        <input class="input" type="email" name="email" id="email" placeholder="Enter a valid email address" />
+        <input class="input submit" type="submit" value="SUBMIT" />
+      </form>
+      <div class="text">
+        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+      </div>
+      <div class="icon">
+        <i class="lab la-facebook-f" wid></i>
+        <i class="lab la-twitter"></i>
+        <i class="lab la-instagram"></i>
       </div>
     </section>
-    <!-- END OF SECTION 1 -->
+    <!-- Footer -->
+
     <!-- Section 2 -->
     <script src="js/script.js"></script>
-
   </body>
 </html>
