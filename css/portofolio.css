@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: 0.4s;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  height: 2000px;
+  /* Cuma buat ngetes scroll aja yang height ini */
+}
+
+/* Navbar */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1400px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  color: #364f6b;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 100px;
+  position: sticky;
+  position: -webkit-sticky;
+  line-height: 80px;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  padding: 0 16px 0 16px;
+  text-decoration: none;
+  text-align: center;
+  transition: 1s;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.column {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.column .description {
+  font-size: 20px;
+  font-weight: bold;
+  color: #364f6b;
+  margin-bottom: 50px;
+}
+
+/* Make Title */
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #364f6b;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.btn {
+  background-color: #364f6b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}

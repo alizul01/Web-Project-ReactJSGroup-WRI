@@ -402,6 +402,7 @@ nav {
   width: 100%;
   margin: auto;
   display: flex;
+  margin-bottom: 100px;
   position: sticky;
   position: -webkit-sticky;
   line-height: 80px;
@@ -465,7 +466,7 @@ section {
   font-weight: bold;
   color: #364f6b;
   margin-bottom: 20px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .btn {
