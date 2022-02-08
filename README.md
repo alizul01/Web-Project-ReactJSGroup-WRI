@@ -37,3 +37,4 @@ Atau bisa jadi contributor secara langsung dari collaborator.
 - [Ibnu Hajar Askholani](https://https://github.com/askholani)
 - [Alfan Olivan](https://github.com/Alivan21)
 - [Sukma Gladys Vellanie](https://github.com/sukmagv)
+- [Wildan Hafidz Mauludin](https://github.com/nikoshaa)
